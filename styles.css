@@ -497,3 +497,28 @@ footer .bottom-line {
 }
 .mission-block p { font-size: 18px; color: var(--ink-soft); line-height: 1.8; }
 
+/* ---------- Photo series (ছবিঘর) ---------- */
+.series-block {
+  margin-bottom: 56px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid var(--line);
+}
+.series-block:last-child { border-bottom: none; }
+.series-head { margin-bottom: 18px; }
+.series-head h3 { font-size: 22px; margin-bottom: 6px; }
+.series-head .by { font-size: 14.5px; color: var(--maroon); font-weight: 600; }
+.series-head p { color: var(--ink-soft); font-size: 15px; margin-top: 6px; max-width: 65ch; }
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 14px;
+  margin-top: 18px;
+}
+.photo-grid img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid var(--line);
+}
