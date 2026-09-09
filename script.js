@@ -1,4 +1,4 @@
-// মনের কথা — small enhancements
+// ঢেউ — small enhancements
 
 document.addEventListener('DOMContentLoaded', () => {
   const el = document.getElementById('today');
